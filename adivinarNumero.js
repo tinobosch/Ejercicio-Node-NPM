@@ -7,7 +7,7 @@ console.log('Ingrese un numero a adivinar entre 5 y 10: ');
 
 let randomNum = chance.integer({min: 1, max: 100}); //seteamos el rango
 
-  // Pedimos el numero dentrosad
+  // Pedimos el numero dentro
   
   do  {
     userNumber = readlineSync.question();
