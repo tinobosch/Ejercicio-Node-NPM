@@ -5,10 +5,9 @@ const chance = new Chance(); //instancio un objeto de la clase Chance asi puedo 
 
 console.log('Ingrese un numero a adivinar entre 5 y 10: ');
 
-
 let randomNum = chance.integer({min: 1, max: 100}); //seteamos el rango
 
-  // Pedimos el numero dentro
+  // Pedimos el numero dentrosad
   
   do  {
     userNumber = readlineSync.question();
